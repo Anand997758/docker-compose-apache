@@ -1,0 +1,14 @@
+version: '3'
+services: 
+  web:
+    image: apache:1
+    ports: 
+      - "80"
+  app:
+    image: apache:2
+    ports: 
+      - "80"
+  web1:
+    image: apache:3
+    ports:
+      - "80"
